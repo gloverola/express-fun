@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "express app covering the fundamentals",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node server",
     "dev": "nodemon --env-file=.env server"
