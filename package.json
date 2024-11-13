@@ -1,0 +1,16 @@
+{
+  "name": "express-fun",
+  "version": "1.0.0",
+  "description": "express app covering the fundamentals",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon --env-file=.env server"
+  },
+  "author": "gloverola",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}
